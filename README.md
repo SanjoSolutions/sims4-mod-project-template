@@ -16,6 +16,11 @@ This template comes with automated building. It supports versioning of all files
 - Rename the folder `src/code/Author` to your author name.
 - It might be required to adjust the path to "sims4-mod-development-tools" in the file `.vscode/tasks.json`.
 
+## Installing Python
+
+- See [here](https://github.com/SanjoSolutions/sims4-modding-guide?tab=readme-ov-file#installing-python) for how to install an appropriate version of Python for Sims 4 mod development.
+- How to select the Python interpreter in Visual Studio Code: Open the command palette, then search for the command "Python: Select Interpreter". Choose the interpreter for Sims4. If it's not in the list, you can select "Enter interpreter path..." -> "Find..." and the select the "python.exe" which is usually the path "~/anaconda3/envs/Sims4/python.exe" (on Windows).
+
 ## License
 
 This template is released under a MIT-0 license (see LICENSE).

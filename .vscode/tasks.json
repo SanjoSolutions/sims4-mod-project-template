@@ -10,7 +10,18 @@
     {
       "label": "build scripts",
       "type": "shell",
-      "command": "python ../sims4-mod-development-tools/compile.py"
+      "command": "python ../sims4-mod-development-tools/compile.py",
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": [
+            "/C",
+            "%USERPROFILE%/anaconda3/Scripts/activate.bat",
+            "Sims4",
+            "&"
+          ]
+        }
+      }
     },
     {
       "label": "build",
