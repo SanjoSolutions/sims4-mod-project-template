@@ -1,0 +1,41 @@
+{
+  "buildInstructions": {
+    "source": "src/package",
+    "destinations": ["out"],
+    "packages": [
+      {
+        "filename": "<AUTHOR_NAME>_<MOD_NAME>",
+        "include": ["**/*"],
+        "exclude": []
+      }
+    ]
+  },
+  "buildSettings": {
+    "allowEmptyPackages": false,
+    "allowFolderCreation": false,
+    "allowMissingSourceFiles": false,
+    "allowPackageOverlap": false,
+    "allowResourceKeyOverrides": false,
+    "outputBuildSummary": "partial"
+  },
+  "releaseSettings": {
+    "overrideDestinations": [],
+    "zips": [
+      {
+        "filename": "<AUTHOR_NAME>_<MOD_NAME>",
+        "internalFolder": "",
+        "packages": ["<AUTHOR_NAME>_<MOD_NAME>"],
+        "otherFiles": {
+          "include": ["out/<AUTHOR_NAME>_<MOD_NAME>.ts4script"],
+          "exclude": []
+        }
+      }
+    ]
+  },
+  "stringTableSettings": {
+    "allowStringKeyOverrides": false,
+    "defaultStringTable": "src/strings/default.stbl.json",
+    "generateMissingLocales": true,
+    "mergeStringTablesInSamePackage": true
+  }
+}
