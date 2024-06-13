@@ -15,3 +15,9 @@ This template comes with automated building. It supports versioning of all files
 - Rename the folder `src/code/Author/ModName` to your mod name.
 - Rename the folder `src/code/Author` to your author name.
 - It might be required to adjust the path to "sims4-mod-development-tools" in the file `.vscode/tasks.json`.
+
+## License
+
+This template is released under a MIT-0 license (see LICENSE).
+With this license you can license you project that is based on this template under any license.
+You can also remove the LICENSE file.
