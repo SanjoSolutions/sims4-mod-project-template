@@ -12,8 +12,7 @@ This template comes with automated building. It supports versioning of all files
 
 - Replace `<AUTHOR_NAME>` in all files with your author name.
 - Replace `<MOD_NAME>` in all files with your mod name.
-- Rename the folder `src/code/Author/ModName` to your mod name.
-- Rename the folder `src/code/Author` to your author name.
+- Rename the folder `src/code/Author_ModName` to `<AUTHOR_NAME>_<MOD_NAME>` (with the placeholders replaced).
 - It might be required to adjust the path to "sims4-mod-development-tools" in the file `.vscode/tasks.json`.
 
 ## Installing Python
